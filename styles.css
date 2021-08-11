@@ -1,0 +1,73 @@
+body {
+	border: 1px solid blue;
+	margin: 0;
+	padding: 0;
+	background-image: url("./images/background.jpeg");
+	background-size: cover;
+	background-repeat: none;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 3px solid yellow;
+}
+
+#logo {
+	height: 17%;
+	width: 17%;
+	margin-top: 10px;
+}
+
+#services {
+	padding: 20px;
+	color: white;
+}
+
+#portfolio {
+	padding: 20px;
+	color: white;
+}
+
+#about {
+	padding: 20px;
+	color: white;
+}
+
+#team {
+	padding: 20px;
+	color: white;
+}
+
+#contact {
+	padding: 20px;
+	color: white;
+}
+
+.container {
+	border: 1px solid orange;
+	height: 273px;
+	width: 100vw;
+	padding-top: 20%;
+}
+
+.subheading {
+	border: 1px solid black;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	font-family: "Roboto Slab";
+	font-style: italic;
+	font-size: 25px;
+}
+
+.mastheading {
+	border: 1px solid black;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	font-family: Montserrat;
+	font-size: 40px;
+	opacity: 60%;
+}
